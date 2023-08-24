@@ -63,6 +63,22 @@
             text-align: center;
             padding: 1rem;
         }
+        img.btn-whatsapp {
+display: block !important;
+position: fixed;
+z-index: 9999999;
+bottom: 20px;
+right: 20px;
+cursor: pointer;
+border-radius:100px !important;
+}
+img.btn-whatsapp:hover{
+border-radius:100px !important;
+-webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+-moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+transition-duration: 1s;
+} 
     </style>
 </head>
 <body>
@@ -98,6 +114,8 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXXXXXXXXXXXXXXXX!2d-72.3173315!3d-36.4655089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3cebc2936867ce5a!2sTinajas%20Valle%20Escondido!5e0!3m2!1sen!2sus!4v1630052131681!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
+    <img class="btn-whatsapp" src="https://clientes.dongee.com/whatsapp.png" width="64" height="64" alt="Whatsapp" onclick="window.location.href='https://wa.me/56942916182?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'">
+
     <footer>
         <p>&copy; 2023 Tinajas Valle Escondido - Todos los derechos reservados</p>
     </footer>
